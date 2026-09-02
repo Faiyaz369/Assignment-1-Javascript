@@ -6,4 +6,3 @@ function describeValue(value){
     (value)? tr_val = "Truthy" : tr_val = "Falsy";
     return val_type + " | " + tr_val; 
 }
-console.log(describeValue("0"));
